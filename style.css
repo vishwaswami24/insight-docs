@@ -1,0 +1,69 @@
+/* Main Header Styling */
+.main-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main-header p {
+    margin: 0.5rem 0 0 0;
+    opacity: 0.9;
+}
+
+/* Chat Message Styling */
+.stChatMessage {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Source Box Styling */
+.source-box {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin: 0.5rem 0;
+}
+
+/* Button Styling */
+.stButton>button {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* File Uploader Styling */
+div[data-testid="stFileUploader"] {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 2px dashed #667eea;
+}
+
+/* Metric Cards */
+.metric-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
